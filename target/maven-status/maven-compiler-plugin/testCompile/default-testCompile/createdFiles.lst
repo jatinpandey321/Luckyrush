@@ -1,0 +1,5 @@
+com\luckyrush\Helperclass.class
+com\luckyrush\stepdefination\Register.class
+com\luckyrush\stepdefination\ForgotPassword.class
+com\luckyrush\Runnerclass.class
+com\luckyrush\stepdefination\Login.class
