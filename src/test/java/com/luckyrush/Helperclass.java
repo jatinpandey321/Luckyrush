@@ -25,9 +25,9 @@ public class Helperclass {
       //      options.addArguments("--headless");
             options.addArguments("--no-sandbox");
             options.addArguments("--disable-dev-shm-usage");
-            options.addArguments("--window-size=360,640");
+   //         options.addArguments("--window-size=360,640");
             driver = new ChromeDriver(options);
- //           driver.manage().window().maximize(); 
+            driver.manage().window().maximize(); 
             driver.get("https://wbst:Welcome@12345@beta-dev.luckyrush.io");
         }
         return driver;//one
